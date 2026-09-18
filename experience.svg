@@ -75,12 +75,12 @@
       Baeonn <tspan fill="#6EE7B7" font-weight="400">· Singapore (Virtual)</tspan>
     </text>
 
-    <!-- Concrete Responsibilities List -->
+    <!-- Responsibilities -->
     <g transform="translate(28, 80)">
       <!-- Bullet 1 -->
       <circle cx="3" cy="-4" r="2" fill="#10B981" />
       <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#E2E8F0">
-        <tspan font-weight="600" fill="#FFFFFF">Full-Stack Development:</tspan> Built modular React.js UI
+        <tspan font-weight="600" fill="#FFFFFF">Full-Stack Modules:</tspan> Built scalable React.js UI
       </text>
       <text x="12" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9CA3AF">
         components and responsive web application workflows.
@@ -98,10 +98,10 @@
       <!-- Bullet 3 -->
       <circle cx="3" cy="76" r="2" fill="#10B981" />
       <text x="12" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#E2E8F0">
-        <tspan font-weight="600" fill="#FFFFFF">Agile Delivery:</tspan> Collaborated across international
+        <tspan font-weight="600" fill="#FFFFFF">Agile Sprints:</tspan> Delivered sprint tasks under Git
       </text>
       <text x="12" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9CA3AF">
-        virtual sprints with Git version control and code reviews.
+        version control with collaborative code reviews.
       </text>
     </g>
 
@@ -136,41 +136,41 @@
       Club Asymmetric <tspan fill="#93C5FD" font-weight="400">· Chennai Inst. of Tech</tspan>
     </text>
 
-    <!-- Concrete Responsibilities List -->
+    <!-- Accurate Secretary Responsibilities -->
     <g transform="translate(28, 80)">
       <!-- Bullet 1 -->
       <circle cx="3" cy="-4" r="2" fill="#3B82F6" />
       <text x="12" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#E2E8F0">
-        <tspan font-weight="600" fill="#FFFFFF">Operations &amp; Governance:</tspan> Directing technical
+        <tspan font-weight="600" fill="#FFFFFF">Team Liaison &amp; Coordination:</tspan> Central link between
       </text>
       <text x="12" y="16" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9CA3AF">
-        roadmaps, administrative workflows &amp; institutional reporting.
+        leadership, team leads, members, and faculty coordinators.
       </text>
 
       <!-- Bullet 2 -->
       <circle cx="3" cy="36" r="2" fill="#3B82F6" />
       <text x="12" y="40" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#E2E8F0">
-        <tspan font-weight="600" fill="#FFFFFF">CTF &amp; Defense Events:</tspan> Orchestrating collegiate
+        <tspan font-weight="600" fill="#FFFFFF">Event &amp; Workshop Execution:</tspan> Planning schedules,
       </text>
       <text x="12" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9CA3AF">
-        Capture The Flag tourneys, security labs &amp; hackathons.
+        cross-team tasks, hackathons, and technical seminars.
       </text>
 
       <!-- Bullet 3 -->
       <circle cx="3" cy="76" r="2" fill="#3B82F6" />
       <text x="12" y="80" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#E2E8F0">
-        <tspan font-weight="600" fill="#FFFFFF">Documentation &amp; Portals:</tspan> Managing technical
+        <tspan font-weight="600" fill="#FFFFFF">Documentation &amp; Approvals:</tspan> Managing official
       </text>
       <text x="12" y="96" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11" fill="#9CA3AF">
-        writeups, challenge specs &amp; club platform development.
+        proposals, meeting minutes, permission letters &amp; records.
       </text>
     </g>
 
     <!-- Pill Tag -->
-    <rect x="28" y="185" width="165" height="18" rx="4" fill="#0B1B2B" stroke="#3B82F6" stroke-width="0.8" stroke-opacity="0.5"/>
+    <rect x="28" y="185" width="175" height="18" rx="4" fill="#0B1B2B" stroke="#3B82F6" stroke-width="0.8" stroke-opacity="0.5"/>
     <circle cx="36" cy="194" r="2.5" fill="#60A5FA" class="dot-pulse"/>
     <text x="44" y="197.5" font-family="'Courier New', Consolas, monospace" font-size="8.5" font-weight="700" fill="#BFDBFE">
-      OPERATIONS · CTF · DOCS
+      LIAISON · EVENTS · DOCS
     </text>
   </g>
 </svg>
