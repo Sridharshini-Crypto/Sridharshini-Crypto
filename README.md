@@ -4,13 +4,11 @@
 
 <br/>
 
-[![Profile Views](https://komarev.com/ghpvc/?username=Sridharshini-Crypto&style=flat-square&color=10B981&label=PROFILE+VIEWS)](https://github.com/Sridharshini-Crypto)
+[![Portfolio](https://img.shields.io/badge/LIVE_PORTFOLIO-sridharshini.vercel.app-10B981?style=for-the-badge&logo=vercel&logoColor=white)](https://sridharshini.vercel.app/)
 &nbsp;
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-sridharshini.vercel.app-10B981?style=flat-square&logo=vercel&logoColor=white)](https://sridharshini.vercel.app/)
+[![LinkedIn](https://img.shields.io/badge/LINKEDIN-sridharshini--s-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sridharshini-s/)
 &nbsp;
-[![LinkedIn](https://img.shields.io/badge/LINKEDIN-sridharshini--s-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sridharshini-s/)
-&nbsp;
-[![Email](https://img.shields.io/badge/EMAIL-ssridharshiniofficial@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ssridharshiniofficial@gmail.com)
+[![Email](https://img.shields.io/badge/EMAIL-ssridharshiniofficial@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ssridharshiniofficial@gmail.com)
 
 <br/>
 
@@ -20,47 +18,82 @@
 
 ---
 
-### `// 01. EXECUTIVE SUMMARY`
+### `// 01. EXECUTIVE OVERVIEW`
 
-I engineer software systems at the intersection of **Cybersecurity**, **Applied Artificial Intelligence**, and **Robust System Architecture**. Currently pursuing B.E. Computer Science and Engineering (Cyber Security) at **Chennai Institute of Technology** (**CGPA: 9.07**).
+I specialize in **Cybersecurity**, **Physics-Informed Machine Learning**, and **Software Engineering**. My work focuses on building air-gapped compliance systems, multi-vector threat correlation platforms, and aerospace digital twins. Currently pursuing B.E. CSE (Cyber Security) at **Chennai Institute of Technology** (**CGPA: 9.07**).
 
 ---
 
 ### `// 02. FEATURED REPOSITORIES`
 
-| System | Domain | Technical Focus |
-| :--- | :--- | :--- |
-| 🚀 **[SubAero](https://github.com/Sridharshini-Crypto/SubAero.git)** | Aerospace AI & Digital Twin | Physics-informed turbojet degradation tracking & RUL forecasting *(HAL Aerothon Top 25)* |
-| 🛡️ **[ReguShield AI](https://github.com/Sridharshini-Crypto/RegushieldAI-ZeroTrustUs.git)** | Zero-Trust Compliance | Air-gapped AI compliance platform with local LLMs & deterministic verification |
-| ⚡ **[SentinelX](https://github.com/Sridharshini-Crypto/SentinelX.git)** | Cyber Fusion & SIEM | Multi-vector threat telemetry correlation mapped to the MITRE ATT&CK matrix |
-| 📈 **[FinSight](https://github.com/Sridharshini-Crypto/Finsight.git)** | Financial Intelligence | AI lending command center with transaction signals & next-best-action workflows |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🚀 <a href="https://github.com/Sridharshini-Crypto/SubAero.git">SubAero</a></h3>
+      <p><b>Physics-Informed Digital Twin</b> for four-stage turbojet diagnostics, real-time degradation tracking, and Remaining Useful Life (RUL) forecasting.</p>
+      <p>
+        <img src="https://img.shields.io/badge/HAL_Aerothon-Top_25_Finalist-10B981?style=flat-square" alt="Top 25" />
+        <img src="https://img.shields.io/badge/AI-PyTorch_PINNs-0E7490?style=flat-square" alt="PINNs" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛡️ <a href="https://github.com/Sridharshini-Crypto/RegushieldAI-ZeroTrustUs.git">ReguShield AI</a></h3>
+      <p><b>Air-Gapped AI Compliance Platform</b> evaluating central bank regulatory circulars with local LLMs, LangGraph workflows, and zero cloud data egress.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Security-Zero--Trust_Enclave-10B981?style=flat-square" alt="Zero Trust" />
+        <img src="https://img.shields.io/badge/Engine-LangGraph_Local_LLM-6366F1?style=flat-square" alt="LangGraph" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ <a href="https://github.com/Sridharshini-Crypto/SentinelX.git">SentinelX</a></h3>
+      <p><b>AI Cyber Fusion SOC</b> unifying network packet streams and transaction events to correlate multi-stage attacks mapped to MITRE ATT&CK.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Cyber-MITRE_ATT%26CK-10B981?style=flat-square" alt="MITRE" />
+        <img src="https://img.shields.io/badge/Telemetry-WebSocket_FastAPI-059669?style=flat-square" alt="FastAPI" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📈 <a href="https://github.com/Sridharshini-Crypto/Finsight.git">FinSight</a></h3>
+      <p><b>AI Lending Command Center</b> analyzing banking ledger signals to compute explainable readiness scores and next-best-action workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/FinTech-Lending_Intelligence-10B981?style=flat-square" alt="FinTech" />
+        <img src="https://img.shields.io/badge/FullStack-Next.js_TypeScript-3B82F6?style=flat-square" alt="Next.js" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### `// 03. EXPERIENCE & LEADERSHIP`
+### `// 03. PROFESSIONAL EXPERIENCE & ROLES`
 
-```
-┌────────────────────────────────────────────────────────────────────────────────────────┐
-│ 💼 PROFESSIONAL TRACK                                                                  │
-├────────────────────────────────────────────────────────────────────────────────────────┤
-│                                                                                        │
-│  [2025]  FULL STACK DEVELOPER INTERN ─────────────────────── Baeonn (Singapore)        │
-│          • Engineered full-stack web modules, responsive UI, and backend API routes.  │
-│                                                                                        │
-│  [2025]  BLOCKCHAIN WORKSHOP INSTRUCTOR ──────────────────── Technical Speaker         │
-│          • Delivered hands-on sessions on smart contracts & Web3 development.          │
-│                                                                                        │
-│  [2025]  TECHNICAL TEAM MEMBER ───────────────────────────── Club Asymmetric           │
-│          • Contributed to cybersecurity challenges, CTFs, and system defense labs.     │
-│                                                                                        │
-└────────────────────────────────────────────────────────────────────────────────────────┘
-```
+<table>
+  <tr>
+    <td width="33%" valign="top">
+      <h4>💼 Full Stack Developer Intern</h4>
+      <p><b>Baeonn</b> · <i>Singapore (Virtual)</i></p>
+      <p>Engineered full-stack web modules, dynamic client interfaces, and backend service pipelines.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🎙️ Blockchain Instructor</h4>
+      <p><b>Technical Workshop</b> · <i>Speaker</i></p>
+      <p>Conducted developer sessions on smart contract architecture, EVM mechanics, and Web3 fundamentals.</p>
+    </td>
+    <td width="33%" valign="top">
+      <h4>🛡️ Technical Team Member</h4>
+      <p><b>Club Asymmetric</b> · <i>CIT</i></p>
+      <p>Active contributor to cybersecurity challenges, defense labs, and collaborative CTF competitions.</p>
+    </td>
+  </tr>
+</table>
 
 ---
 
-### `// 04. HONORS & COMPETITIVE MILESTONES`
+### `// 04. HONORS & MILESTONES`
 
-* 🏆 **HAL × IIT Indore Aerothon 2026** — *Top 25 National Finalist* (out of 2,300+ teams)
+* 🏆 **HAL × IIT Indore Aerothon 2026** — *Top 25 National Finalist* (out of 2,300+ teams across India)
 * 🌐 **Smart Horizon International Hackathon 2026** — *Grand Finale Finalist*
 * 🤖 **Microsoft Agents League** — *Reasoning Agents Track*
 * 🎓 **Academic Excellence** — *School 1st Rank* in HSC (97%) & SSLC (95%)
@@ -70,13 +103,35 @@ I engineer software systems at the intersection of **Cybersecurity**, **Applied 
 
 ### `// 05. CERTIFICATIONS & ACCREDITATIONS`
 
-| Specialization | Credential | Accrediting Body |
-| :--- | :--- | :--- |
-| 🔐 **Cybersecurity** | Industrial Cybersecurity Essentials | Industrial Cybersecurity |
-| 🌐 **Networking** | Exploring Networking with Cisco Packet Tracer | Cisco Networking Academy |
-| ⛓️ **Blockchain** | Solidity Smart Contract Development & Web3 Basics | Cyfrin |
-| 🤖 **Artificial Intelligence** | Introduction to Modern AI & Review Sentiment Analytics | Applied AI Academy |
-| 🐍 **Programming** | Python Essentials 1 & Python Essentials 2 | Cisco / OpenEDG Python Institute |
+<table>
+  <tr>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/CYBERSECURITY-047857?style=for-the-badge&logo=shield&logoColor=white" alt="Cybersecurity" /><br/><br/>
+      <b>Industrial Cybersecurity Essentials</b><br/>
+      <sub>Industrial Cybersecurity</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/NETWORKING-0284C7?style=for-the-badge&logo=cisco&logoColor=white" alt="Networking" /><br/><br/>
+      <b>Packet Tracer Exploration</b><br/>
+      <sub>Cisco Networking Academy</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/BLOCKCHAIN-6366F1?style=for-the-badge&logo=ethereum&logoColor=white" alt="Blockchain" /><br/><br/>
+      <b>Solidity & Smart Contracts</b><br/>
+      <sub>Cyfrin Updraft</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/AI_&_DATA-059669?style=for-the-badge&logo=openai&logoColor=white" alt="AI" /><br/><br/>
+      <b>Modern AI & NLP Analytics</b><br/>
+      <sub>Applied AI Academy</sub>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/PROGRAMMING-F59E0B?style=for-the-badge&logo=python&logoColor=white" alt="Python" /><br/><br/>
+      <b>Python Essentials 1 & 2</b><br/>
+      <sub>Cisco / OpenEDG</sub>
+    </td>
+  </tr>
+</table>
 
 ---
 
