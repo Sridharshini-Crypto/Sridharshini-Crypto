@@ -1,0 +1,39 @@
+<svg width="850" height="38" viewBox="0 0 850 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes tickerMarquee {
+        0% { transform: translateX(0); }
+        100% { transform: translateX(-50%); }
+      }
+      .marquee-track {
+        animation: tickerMarquee 22s linear infinite;
+      }
+      .marquee-track:hover {
+        animation-play-state: paused;
+      }
+    </style>
+    <clipPath id="tickerClip">
+      <rect x="2" y="2" width="846" height="34" rx="7" />
+    </clipPath>
+  </defs>
+
+  <!-- Container -->
+  <rect width="850" height="38" rx="8" fill="#060C09" stroke="#10B981" stroke-width="1" stroke-opacity="0.35"/>
+
+  <!-- Left Pin Label -->
+  <rect x="6" y="6" width="105" height="26" rx="5" fill="#0A1C12" stroke="#10B981" stroke-width="1" stroke-opacity="0.5"/>
+  <circle cx="16" cy="19" r="3.5" fill="#10B981"/>
+  <text x="26" y="22.5" font-family="'Courier New', Consolas, monospace" font-size="10" font-weight="700" fill="#34D399" letter-spacing="1">
+    TELEMETRY
+  </text>
+
+  <!-- Scrolling Stream -->
+  <g clip-path="url(#tickerClip)" transform="translate(120, 0)">
+    <g class="marquee-track">
+      <text x="0" y="23" font-family="'Courier New', Consolas, monospace" font-size="11.5" font-weight="600" fill="#9CA3AF" letter-spacing="1.2">
+        <tspan fill="#34D399">⚡ FOCUS:</tspan> Air-Gapped Zero-Trust Enclaves  •  <tspan fill="#34D399">🚀 MILESTONE:</tspan> HAL Aerothon 2026 Top 25 Finalist  •  <tspan fill="#34D399">🛡️ ORG:</tspan> Secretary @ Club Asymmetric  •  <tspan fill="#34D399">🧠 RESEARCH:</tspan> Physics-Informed ML (PINNs)  •  <tspan fill="#34D399">🎓 ACADEMICS:</tspan> 9.07 CGPA @ CIT  •  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <tspan fill="#34D399">⚡ FOCUS:</tspan> Air-Gapped Zero-Trust Enclaves  •  <tspan fill="#34D399">🚀 MILESTONE:</tspan> HAL Aerothon 2026 Top 25 Finalist  •  <tspan fill="#34D399">🛡️ ORG:</tspan> Secretary @ Club Asymmetric  •  <tspan fill="#34D399">🧠 RESEARCH:</tspan> Physics-Informed ML (PINNs)  •  <tspan fill="#34D399">🎓 ACADEMICS:</tspan> 9.07 CGPA @ CIT  •  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      </text>
+    </g>
+  </g>
+</svg>

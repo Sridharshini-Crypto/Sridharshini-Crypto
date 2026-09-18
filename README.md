@@ -12,6 +12,10 @@
 
 <br/>
 
+<img src="./ticker.svg" alt="Live Telemetry Stream" width="100%" />
+
+<br/>
+
 > *Computer Science & Engineering (Cyber Security) Student at Chennai Institute of Technology*
 
 </div>
@@ -20,7 +24,7 @@
 
 ### `// 01. EXECUTIVE OVERVIEW`
 
-I specialize in **Cybersecurity**, **Physics-Informed Machine Learning**, and **Software Engineering**. My work focuses on building air-gapped compliance systems, multi-vector threat correlation platforms, and aerospace digital twins. Currently pursuing B.E. CSE (Cyber Security) at **Chennai Institute of Technology** (**CGPA: 9.07**).
+I specialize in **Cybersecurity**, **Physics-Informed Machine Learning**, and **Software Architecture**. My work focuses on building air-gapped compliance systems, multi-vector threat correlation platforms, and aerospace digital twins. Currently pursuing B.E. CSE (Cyber Security) at **Chennai Institute of Technology** (**CGPA: 9.07**).
 
 ---
 
@@ -67,24 +71,19 @@ I specialize in **Cybersecurity**, **Physics-Informed Machine Learning**, and **
 
 ---
 
-### `// 03. PROFESSIONAL EXPERIENCE & ROLES`
+### `// 03. PROFESSIONAL EXPERIENCE & LEADERSHIP`
 
 <table>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h4>💼 Full Stack Developer Intern</h4>
       <p><b>Baeonn</b> · <i>Singapore (Virtual)</i></p>
       <p>Engineered full-stack web modules, dynamic client interfaces, and backend service pipelines.</p>
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <h4>🛡️ Secretary</h4>
       <p><b>Club Asymmetric</b> · <i>CIT</i></p>
       <p>Leading cybersecurity operations, CTF competitions, defense labs, and technical documentation.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🎙️ Blockchain Instructor</h4>
-      <p><b>Technical Workshop</b> · <i>Speaker</i></p>
-      <p>Conducted developer sessions on smart contract architecture, EVM mechanics, and Web3 fundamentals.</p>
     </td>
   </tr>
 </table>
