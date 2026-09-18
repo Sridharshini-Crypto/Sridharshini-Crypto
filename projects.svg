@@ -1,0 +1,161 @@
+<svg width="850" height="230" viewBox="0 0 850 230" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pCardBg" x1="0" y1="0" x2="415" y2="105" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#060E0A" />
+      <stop offset="100%" stop-color="#040806" />
+    </linearGradient>
+    <linearGradient id="laserGradP" x1="0" y1="0" x2="415" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#34D399" stop-opacity="1" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes pulseGlowP {
+        0%, 100% { opacity: 0.3; }
+        50% { opacity: 0.8; }
+      }
+      @keyframes scanP1 {
+        0% { transform: translateX(-420px); }
+        100% { transform: translateX(420px); }
+      }
+      @keyframes scanP2 {
+        0% { transform: translateX(-420px); }
+        100% { transform: translateX(420px); }
+      }
+      .card-pulse-p {
+        animation: pulseGlowP 3.5s ease-in-out infinite;
+      }
+      .scan-p1 {
+        animation: scanP1 4s linear infinite;
+      }
+      .scan-p2 {
+        animation: scanP2 4s linear 2s infinite;
+      }
+    </style>
+    <clipPath id="clipP1">
+      <rect x="0" y="0" width="415" height="105" rx="10" />
+    </clipPath>
+    <clipPath id="clipP2">
+      <rect x="435" y="0" width="415" height="105" rx="10" />
+    </clipPath>
+    <clipPath id="clipP3">
+      <rect x="0" y="120" width="415" height="105" rx="10" />
+    </clipPath>
+    <clipPath id="clipP4">
+      <rect x="435" y="120" width="415" height="105" rx="10" />
+    </clipPath>
+  </defs>
+
+  <!-- CARD 1: SUBAERO -->
+  <g transform="translate(0, 0)">
+    <rect width="415" height="105" rx="10" fill="url(#pCardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+    <rect width="415" height="105" rx="10" fill="none" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" class="card-pulse-p"/>
+    <g clip-path="url(#clipP1)">
+      <line x1="0" y1="1" x2="160" y2="1" stroke="url(#laserGradP)" stroke-width="2" class="scan-p1" />
+    </g>
+    <rect x="12" y="14" width="3" height="77" rx="1.5" fill="#10B981" />
+    
+    <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">
+      🚀 SubAero
+    </text>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#9CA3AF">
+      Physics-informed digital twin for turbojet degradation &amp; RUL.
+    </text>
+
+    <!-- Badges -->
+    <rect x="24" y="70" width="138" height="20" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="32" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399">
+      HAL TOP 25 FINALIST
+    </text>
+
+    <rect x="170" y="70" width="105" height="20" rx="4" fill="#0C2028" stroke="#0E7490" stroke-width="0.8"/>
+    <text x="178" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#38BDF8">
+      PYTORCH PINNs
+    </text>
+  </g>
+
+  <!-- CARD 2: REGUSHIELD AI -->
+  <g transform="translate(435, 0)">
+    <rect width="415" height="105" rx="10" fill="url(#pCardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+    <rect width="415" height="105" rx="10" fill="none" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" class="card-pulse-p"/>
+    <g clip-path="url(#clipP2)">
+      <line x1="0" y1="1" x2="160" y2="1" stroke="url(#laserGradP)" stroke-width="2" class="scan-p2" />
+    </g>
+    <rect x="12" y="14" width="3" height="77" rx="1.5" fill="#6366F1" />
+
+    <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">
+      🛡️ ReguShield AI
+    </text>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#9CA3AF">
+      Air-gapped AI compliance enclave for banking regulations.
+    </text>
+
+    <!-- Badges -->
+    <rect x="24" y="70" width="135" height="20" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="32" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399">
+      ZERO-TRUST ENCLAVE
+    </text>
+
+    <rect x="167" y="70" width="125" height="20" rx="4" fill="#14172C" stroke="#6366F1" stroke-width="0.8"/>
+    <text x="175" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#A5B4FC">
+      LANGGRAPH LOCAL LLM
+    </text>
+  </g>
+
+  <!-- CARD 3: SENTINELX -->
+  <g transform="translate(0, 120)">
+    <rect width="415" height="105" rx="10" fill="url(#pCardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+    <rect width="415" height="105" rx="10" fill="none" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" class="card-pulse-p"/>
+    <g clip-path="url(#clipP3)">
+      <line x1="0" y1="121" x2="160" y2="121" stroke="url(#laserGradP)" stroke-width="2" class="scan-p2" />
+    </g>
+    <rect x="12" y="14" width="3" height="77" rx="1.5" fill="#10B981" />
+
+    <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">
+      ⚡ SentinelX
+    </text>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#9CA3AF">
+      AI Cyber Fusion SOC unifying packet telemetry &amp; fraud streams.
+    </text>
+
+    <!-- Badges -->
+    <rect x="24" y="70" width="115" height="20" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="32" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399">
+      MITRE ATT&amp;CK SOC
+    </text>
+
+    <rect x="147" y="70" width="135" height="20" rx="4" fill="#0A2216" stroke="#059669" stroke-width="0.8"/>
+    <text x="155" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#6EE7B7">
+      WEBSOCKET FASTAPI
+    </text>
+  </g>
+
+  <!-- CARD 4: FINSIGHT -->
+  <g transform="translate(435, 120)">
+    <rect width="415" height="105" rx="10" fill="url(#pCardBg)" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.35"/>
+    <rect width="415" height="105" rx="10" fill="none" stroke="#34D399" stroke-width="1" stroke-opacity="0.5" class="card-pulse-p"/>
+    <g clip-path="url(#clipP4)">
+      <line x1="0" y1="121" x2="160" y2="121" stroke="url(#laserGradP)" stroke-width="2" class="scan-p1" />
+    </g>
+    <rect x="12" y="14" width="3" height="77" rx="1.5" fill="#3B82F6" />
+
+    <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="15" font-weight="800" fill="#FFFFFF">
+      📈 FinSight
+    </text>
+    <text x="24" y="52" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" fill="#9CA3AF">
+      AI lending command center &amp; financial signal intelligence.
+    </text>
+
+    <!-- Badges -->
+    <rect x="24" y="70" width="138" height="20" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="32" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399">
+      LENDING INTELLIGENCE
+    </text>
+
+    <rect x="170" y="70" width="130" height="20" rx="4" fill="#0D1D2D" stroke="#3B82F6" stroke-width="0.8"/>
+    <text x="178" y="84" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#93C5FD">
+      NEXT.JS TYPESCRIPT
+    </text>
+  </g>
+</svg>

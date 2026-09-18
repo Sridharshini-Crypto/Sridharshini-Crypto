@@ -1,0 +1,132 @@
+<svg width="850" height="135" viewBox="0 0 850 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="certBg" x1="0" y1="0" x2="160" y2="135" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#07120D" />
+      <stop offset="100%" stop-color="#040806" />
+    </linearGradient>
+    <linearGradient id="laserGradC" x1="0" y1="0" x2="850" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0" />
+      <stop offset="50%" stop-color="#34D399" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#10B981" stop-opacity="0" />
+    </linearGradient>
+
+    <style>
+      @keyframes pulseGlowC {
+        0%, 100% { opacity: 0.35; }
+        50% { opacity: 0.85; }
+      }
+      @keyframes scanC {
+        0% { transform: translateX(-850px); }
+        100% { transform: translateX(850px); }
+      }
+      .card-pulse-c {
+        animation: pulseGlowC 3.5s ease-in-out infinite;
+      }
+      .scan-laser-c {
+        animation: scanC 4.5s linear infinite;
+      }
+    </style>
+    <clipPath id="clipCerts">
+      <rect width="850" height="135" rx="12" />
+    </clipPath>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="850" height="135" rx="12" fill="#040806" stroke="#10B981" stroke-width="1.2" stroke-opacity="0.3"/>
+  <rect width="850" height="135" rx="12" fill="none" stroke="#34D399" stroke-width="1" stroke-opacity="0.4" class="card-pulse-c"/>
+
+  <!-- Top Laser Sweep -->
+  <g clip-path="url(#clipCerts)">
+    <line x1="0" y1="1" x2="250" y2="1" stroke="url(#laserGradC)" stroke-width="2" class="scan-laser-c" />
+  </g>
+
+  <!-- Card 1: Cybersecurity -->
+  <g transform="translate(10, 10)">
+    <rect width="158" height="115" rx="8" fill="url(#certBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="10" y="10" width="138" height="22" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="79" y="24.5" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399" text-anchor="middle" letter-spacing="0.5">
+      🔐 CYBERSECURITY
+    </text>
+    <text x="79" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Industrial Cyber
+    </text>
+    <text x="79" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Essentials
+    </text>
+    <text x="79" y="98" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#9CA3AF" text-anchor="middle">
+      Industrial Cyber
+    </text>
+  </g>
+
+  <!-- Card 2: Networking -->
+  <g transform="translate(176, 10)">
+    <rect width="158" height="115" rx="8" fill="url(#certBg)" stroke="#0284C7" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="10" y="10" width="138" height="22" rx="4" fill="#0C1D2A" stroke="#0284C7" stroke-width="0.8"/>
+    <text x="79" y="24.5" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#38BDF8" text-anchor="middle" letter-spacing="0.5">
+      🌐 NETWORKING
+    </text>
+    <text x="79" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Cisco Packet
+    </text>
+    <text x="79" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Tracer Explorer
+    </text>
+    <text x="79" y="98" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#9CA3AF" text-anchor="middle">
+      Cisco Academy
+    </text>
+  </g>
+
+  <!-- Card 3: Blockchain -->
+  <g transform="translate(342, 10)">
+    <rect width="158" height="115" rx="8" fill="url(#certBg)" stroke="#6366F1" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="10" y="10" width="138" height="22" rx="4" fill="#15172C" stroke="#6366F1" stroke-width="0.8"/>
+    <text x="79" y="24.5" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#A5B4FC" text-anchor="middle" letter-spacing="0.5">
+      ⛓️ BLOCKCHAIN
+    </text>
+    <text x="79" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Solidity &amp; Smart
+    </text>
+    <text x="79" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Contracts
+    </text>
+    <text x="79" y="98" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#9CA3AF" text-anchor="middle">
+      Cyfrin Updraft
+    </text>
+  </g>
+
+  <!-- Card 4: AI & Data -->
+  <g transform="translate(508, 10)">
+    <rect width="158" height="115" rx="8" fill="url(#certBg)" stroke="#10B981" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="10" y="10" width="138" height="22" rx="4" fill="#0A2216" stroke="#10B981" stroke-width="0.8"/>
+    <text x="79" y="24.5" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#34D399" text-anchor="middle" letter-spacing="0.5">
+      🤖 ARTIFICIAL INTEL
+    </text>
+    <text x="79" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Modern AI &amp; NLP
+    </text>
+    <text x="79" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Review Analytics
+    </text>
+    <text x="79" y="98" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#9CA3AF" text-anchor="middle">
+      Applied AI
+    </text>
+  </g>
+
+  <!-- Card 5: Programming -->
+  <g transform="translate(674, 10)">
+    <rect width="158" height="115" rx="8" fill="url(#certBg)" stroke="#F59E0B" stroke-width="1" stroke-opacity="0.3"/>
+    <rect x="10" y="10" width="138" height="22" rx="4" fill="#22180B" stroke="#F59E0B" stroke-width="0.8"/>
+    <text x="79" y="24.5" font-family="'Courier New', Consolas, monospace" font-size="9" font-weight="700" fill="#FCD34D" text-anchor="middle" letter-spacing="0.5">
+      🐍 PROGRAMMING
+    </text>
+    <text x="79" y="55" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Python Essentials
+    </text>
+    <text x="79" y="70" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="700" fill="#FFFFFF" text-anchor="middle">
+      Level 1 &amp; 2
+    </text>
+    <text x="79" y="98" font-family="'Courier New', Consolas, monospace" font-size="9.5" fill="#9CA3AF" text-anchor="middle">
+      Cisco / OpenEDG
+    </text>
+  </g>
+</svg>
