@@ -77,14 +77,14 @@ I specialize in **Cybersecurity**, **Physics-Informed Machine Learning**, and **
       <p>Engineered full-stack web modules, dynamic client interfaces, and backend service pipelines.</p>
     </td>
     <td width="33%" valign="top">
+      <h4>🛡️ Secretary</h4>
+      <p><b>Club Asymmetric</b> · <i>CIT</i></p>
+      <p>Leading cybersecurity operations, CTF competitions, defense labs, and technical documentation.</p>
+    </td>
+    <td width="33%" valign="top">
       <h4>🎙️ Blockchain Instructor</h4>
       <p><b>Technical Workshop</b> · <i>Speaker</i></p>
       <p>Conducted developer sessions on smart contract architecture, EVM mechanics, and Web3 fundamentals.</p>
-    </td>
-    <td width="33%" valign="top">
-      <h4>🛡️ Technical Team Member</h4>
-      <p><b>Club Asymmetric</b> · <i>CIT</i></p>
-      <p>Active contributor to cybersecurity challenges, defense labs, and collaborative CTF competitions.</p>
     </td>
   </tr>
 </table>
